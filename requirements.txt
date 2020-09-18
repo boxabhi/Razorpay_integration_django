@@ -1,10 +1,13 @@
 asgiref==3.2.10
 certifi==2020.6.20
 chardet==3.0.4
+dj-static==0.0.6
 Django==3.1.1
+gunicorn==20.0.4
 idna==2.10
 pytz==2020.1
 razorpay==1.2.0
 requests==2.24.0
 sqlparse==0.3.1
+static3==0.7.0
 urllib3==1.25.10
