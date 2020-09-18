@@ -8,7 +8,7 @@ def home(request):
     if request.method == "POST":
         name = request.POST.get('name')
         amount = int(request.POST.get('amount')) * 100
-        client = razorpay.Client(auth = ("rzp_test_vR5dxZfr0bHQRN", "fWkwY9OwMRKsb2pNIVOpz7L6"))
+        client = razorpay.Client(auth =("rzp_test_fIQJWiEsCEUyzS" , "UiKtan5P5LpnMFLNkKvCEw7x"))
         payment = client.order.create({'amount':amount, 'currency':'INR',
                               'payment_capture':'1' })
         
